@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-image: url(../img/home1.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100hv;
+    width: 100%;
+}
+
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.div1{
+    width: 100%;
+    height: 15%;
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logosc{
+    width: 10%;
+    height: 100%;
+}
+
+div .logosc img{
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    width: 80%;
+    height: 100%;
+}
+
+div .name p{
+    width: 100%;
+    height: 100%;
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    border: 1px solid black ;
+}
+
+.pet{
+    width: 10%;
+    height: 100%;
+}
+
+div .pet img{
+    width: 100%;
+    height: 100%;
+}
+
+.div2{
+    width: 10%;
+    height: 85%;
+    border: black solid 1px;
+    /*Flex*/
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-start;
+    order: 4;
+}
+
+div .schedule p{
+    padding: 1px;
+    border: black solid 1px;
+}
+
+div .schedule button{
+    border: black solid 2px;
+    width: 100%;
+}
+
+.div3{
+    width: 10%;
+    height: auto;
+    /*Flexbox*/
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+
+}
+
+div .div3 div p{
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div .div3 div{
+    border: black solid 1px;
+    height: 33.3%;
+}
+
+.div4{
+    border: 1px blue solid;
+    width: 80%;
+    height: 85%;
+    /*Flex*/
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div .div5{
+    height: 5%;
+    width: 100%;
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div .help1{
+    width: 50%;
+}
+
+div .help1 input{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+div .help2{
+    width: 50%;
+}
+
+div .help2 input{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.div6{
+
+    height: 20%;
+    width: 100%;
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.div6 div.photo{
+    width: 20%;
+    height: 100%;
+}
+
+.div6 div.info{
+    width: 80%;
+    height: 100%;
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.div6 p.welcome{
+    width: 100%;
+    height: 50%;
+   
+ }
+
+ .div6 p.grade{
+     width: 100%;
+     height: 50%;
+ }
+
+.div7{
+    width: 100%;
+    height: 75%;
+    border: 1px solid black;
+}
+
+.div7 p.title{
+    text-align: center;
+}
+
+.div8{
+    width: 100%;
+    height: 90%;
+    /*FLEX*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.subject{
+    border: black solid 1px;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+}
+
+div.grade{
+    border: black solid 1px;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+}
+
+div.finalgrade{
+    border: black solid 1px;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+}
